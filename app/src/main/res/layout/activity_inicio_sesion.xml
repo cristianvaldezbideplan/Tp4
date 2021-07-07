@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_59dd406bfc916d6fec1c97aae1de69f"
+    tools:context=".Activity_InicioSesion">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_correo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.481"
+        app:srcCompat="@drawable/pngwing_com___copia" />
+
+    <TextView
+        android:id="@+id/textView_titulo3"
+        android:layout_width="238dp"
+        android:layout_height="29dp"
+        android:text="Datos del Programador"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#CC7171"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_correo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.409" />
+
+    <Button
+        android:id="@+id/button_correo"
+        android:layout_width="202dp"
+        android:layout_height="60dp"
+        android:background="@drawable/tema_boton_redondo"
+        android:text="Correo Electronico"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/button2_telefono"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.903" />
+
+    <Button
+        android:id="@+id/button2_telefono"
+        android:layout_width="202dp"
+        android:layout_height="60dp"
+        android:background="@drawable/tema_boton_redondo"
+        android:text="Telefono"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/button3_sitiowed"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.912" />
+
+    <Button
+        android:id="@+id/button3_sitiowed"
+        android:layout_width="202dp"
+        android:layout_height="60dp"
+        android:background="@drawable/tema_boton_redondo"
+        android:text="Sitio Wed"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/button4_Github"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.962" />
+
+    <Button
+        android:id="@+id/button4_Github"
+        android:layout_width="202dp"
+        android:layout_height="60dp"
+        android:background="@drawable/tema_boton_redondo"
+        android:text="GitHub"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.846" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

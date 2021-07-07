@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ejercisiotp4</string>
+    <string name="ingrese_nombre">Ingrese Nombre</string>
+    <string name="ingrese_contraseña">Ingrese Contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="registrar">Registrar</string>
+    <string name="login">Login</string>
+</resources>
